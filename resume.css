@@ -53,6 +53,7 @@ h2 {
   font-size: 14px;
 }
 .skills ul {
+  flex-direction: column;
   list-style: none;
   padding: 0;
 }
@@ -69,4 +70,13 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
 }
